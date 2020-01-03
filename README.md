@@ -15,6 +15,7 @@ Description | [1.081.231.257 captured WeChat dialogues containing 3.784.309.399 
  * ~~Recovered [Jupyter notebook files]()~~
  * [Keywords](https://github.com/GDI-foundation/WeChat/blob/master/keywords.txt) used and found in the [wxmsg_20190318.json]() export file. 
  * [Chinese Stop Word list](https://github.com/cookiemonster/WeChat/blob/master/Chinese.stop.words.txt)
+ * [English Stop Word list](https://github.com/cookiemonster/WeChat/blob/master/English.stop.words.txt)
 
 ## Natural Language Processing tools
 * [Scikit-learn](https://scikit-learn.org)
