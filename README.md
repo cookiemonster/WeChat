@@ -8,12 +8,14 @@ Source | [211.159.163.137 - City: Beijing  - Country: China  - Organization: Ten
 Description | [1.081.231.257 captured WeChat dialogues containing 3.784.309.399 messages dated 18 March 2019 were automatically selected for review based on a keyword trigger.](https://twitter.com/0xDUDE/status/1107793510881742848) Not all the dialogues were in Chinese or only had GPS coordinates in China.
 
 ## Project files:
- * MongoDB db.stats() `db.tencent.stats()`
- * MongoDB db.collection.stats() `db.tencent.wxmsg_20190318.stats()` 
- * MongoDB export `mongoexport --db tencent --collection wxmsg_20190318 --out wxmsg_20190318.json`
- * ~~Grep [output](#)~~
- * ~~Recovered [Jupyter notebook files]()~~
- * [Keywords](https://github.com/GDI-foundation/WeChat/blob/master/keywords.txt) used and found in the [wxmsg_20190318.json]() export file. 
+* MongoDB db.stats() `db.tencent.stats()`
+* MongoDB db.collection.stats() `db.tencent.wxmsg_20190318.stats()` 
+* MongoDB export `mongoexport --db tencent --collection wxmsg_20190318 --out wxmsg_20190318.json`
+* ~~Grep [output](#)~~
+* ~~Recovered [Jupyter notebook files]()~~
+  * [wxmsg_20190318.stop-words.ipynb]()
+  
+* [Keywords](https://github.com/GDI-foundation/WeChat/blob/master/keywords.txt) used and found in the [wxmsg_20190318.json]() export file. 
  * [Chinese Stop Word list](https://github.com/cookiemonster/WeChat/blob/master/Chinese.stop.words.txt)
  * [English Stop Word list](https://github.com/cookiemonster/WeChat/blob/master/English.stop.words.txt)
 
