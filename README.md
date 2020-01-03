@@ -26,7 +26,7 @@ Description | [1.081.231.257 captured WeChat dialogues containing 3.784.309.399 
 ## Update
 * January 2020: The Google Translate Toolkit service is down. The translated data is still attainable via [Google Takeout](https://takeout.google.com/?pli=1). The process of refactoring all the salvaged components into a new research project has started. 
 
-* December 2019: We gave up brute-forcing the VerCrypt container and moved on to the data which was saved in screenshots and the data which was uploaded to [Google Translate Toolkit](https://translate.google.com › toolkit)
+* December 2019: We gave up brute-forcing the VerCrypt container and moved on to the data which was saved in screenshots and the data which was uploaded to [Google Translate Toolkit](translate.google.com/toolkit)
 
 * [June 2019](https://twitter.com/0xDUDE/status/1138027431258918918?s=20): We got a small disk image of Ubuntu 18.04.2 desktop image,  which was used to build the Jupyter Notebook files. After many attempts to find any evidence on the system image, it became clear nothing was stored here. We found symlink a Veracrypt container, but we did not find a password that would open a hidden container. A simple password 'password' did open an empty container.
 
